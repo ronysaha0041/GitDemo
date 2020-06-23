@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="72112" started-at="2020-06-11T21:17:54 EDT" finished-at="2020-06-11T21:19:06 EDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="72112" started-at="2020-06-11T21:17:54 EDT" finished-at="2020-06-11T21:19:06 EDT">
+      <class name="topLineAuto.project.FaceBookTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:topLineAuto.project.FaceBookTest@3e6ef8ad]" name="openBrowser" is-config="true" duration-ms="10100" started-at="2020-06-11T21:17:54 EDT" finished-at="2020-06-11T21:18:04 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="getUrl()[pri:0, instance:topLineAuto.project.FaceBookTest@3e6ef8ad]" name="getUrl" duration-ms="89" started-at="2020-06-11T21:18:04 EDT" finished-at="2020-06-11T21:18:05 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method status="PASS" signature="checkLogo()[pri:0, instance:topLineAuto.project.FaceBookTest@3e6ef8ad]" name="checkLogo" duration-ms="10048" started-at="2020-06-11T21:18:05 EDT" depends-on-methods="topLineAuto.project.FaceBookTest.getUrl" finished-at="2020-06-11T21:18:15 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLogo -->
+        <test-method status="PASS" signature="typeDummyEmail(java.lang.String, java.lang.String)[pri:0, instance:topLineAuto.project.FaceBookTest@3e6ef8ad]" name="typeDummyEmail" duration-ms="11462" started-at="2020-06-11T21:18:15 EDT" data-provider="getdata" depends-on-methods="topLineAuto.project.FaceBookTest.checkLogo" finished-at="2020-06-11T21:18:26 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dummy@dummy.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typeDummyEmail -->
+        <test-method status="PASS" signature="typeDummyEmail(java.lang.String, java.lang.String)[pri:0, instance:topLineAuto.project.FaceBookTest@3e6ef8ad]" name="typeDummyEmail" duration-ms="39302" started-at="2020-06-11T21:18:26 EDT" data-provider="getdata" depends-on-methods="topLineAuto.project.FaceBookTest.checkLogo" finished-at="2020-06-11T21:19:05 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dummysecnd@dummy.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordsecond]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typeDummyEmail -->
+        <test-method status="PASS" signature="close()[pri:0, instance:topLineAuto.project.FaceBookTest@3e6ef8ad]" name="close" is-config="true" duration-ms="1010" started-at="2020-06-11T21:19:05 EDT" finished-at="2020-06-11T21:19:06 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- topLineAuto.project.FaceBookTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
